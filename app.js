@@ -1,11 +1,10 @@
 const topicCodes = {
-  "Mastering CLI": "CLI123",
-  "Git & GitHub": "OCTOCAT",
-  HTML: "DOCTYPE",
-  "CSS Basics": "CSS101",
-  "Intermediate CSS": "RWD201",
-  "JavaScript Basics": "JSLINGO",
-  "DOM Manipulation": "JSDOM",
+  "Markdown": "MARKDOWN123",
+  "Python Essentials": "PROGLANG",
+  "SQL": "TABLES",
+  "Pandas Basics": "PANDASBASICS",
+  "Pandas Intermediate": "PANDASINTERMEDIATE",
+  "Data Visualization": "DATAVIS"
 };
 
 const buttons = document.querySelectorAll(".quiz-button");
@@ -27,23 +26,21 @@ buttons.forEach((button) => {
 
 function retrieveScore() {
   const topics = [
-    "Mastering CLI",
-    "Git & GitHub",
-    "HTML",
-    "CSS Basics",
-    "Intermediate CSS",
-    "JavaScript Basics",
-    "DOM Manipulation",
+    "Markdown",
+    "Python Essentials",
+    "SQL",
+    "Pandas Basics",
+    "Pandas Intermediate",
+    "Data Visualization"
   ];
 
   const topicIds = {
-    "Mastering CLI": "CLI",
-    "Git & GitHub": "GIT",
-    HTML: "HTML",
-    "CSS Basics": "CSS1",
-    "Intermediate CSS": "CSS2",
-    "JavaScript Basics": "JS",
-    "DOM Manipulation": "DOM",
+    "Markdown": "MARKDOWN123",
+    "Python Essentials": "PROGLANG",
+    "SQL": "TABLES",
+    "Pandas Basics": "PANDASBASICS",
+    "Pandas Intermediate": "PANDASINTERMEDIATE",
+    "Data Visualization": "DATAVIS"
   };
 
   topics.forEach((topic) => {
