@@ -1,127 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizHub</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>QuizHub</title>
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-
-<body>
-  <div class="header">
-    <div class="header-content">
-      <h1 class="title">Quiz<span>Hub</span></h1>
-      <h2>Please Select a Topic</h2>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <h1 class="title">Quiz<span>Hub</span></h1>
+        <h2>Please Select a Topic</h2>
+      </div>
     </div>
-  </div>
 
-  <div>
-    <ol id="topics">
-      <li class="quiz-button" data-topic="Mastering CLI">
-        <div class="header-design"></div>
-        <div class="topic-desc">
-          <h3>Markdown</h3>
-          <div class="score-info" id="CLI">
-            <span class="strong">COMPLETION RATE: 0%</span>
-            <span class="strong">SCORE: 0/9</span>
+    <div>
+      <ol id="topics">
+        <li class="quiz-button" data-topic="Mastering CLI">
+          <div class="header-design"></div>
+          <div class="topic-desc">
+            <h3>Markdown</h3>
+            <div class="score-info" id="CLI">
+              <span class="strong">COMPLETION RATE: 0%</span>
+              <span class="strong">SCORE: 0/9</span>
+            </div>
+            <p>Welcome to the Markdown quiz!</p>
+            <div class="link-button">TAKE THE QUIZ <span>></span></div>
           </div>
-          <p>
-            Welcome to the Markdown quiz!
-          </p>
-          <div class="link-button">
-            TAKE THE QUIZ <span>></span>
-          </div>
-        </div>
-      </li>
+        </li>
 
-      <li class="quiz-button" data-topic="Git & GitHub">
-        <div class="header-design"></div>
-        <div class="topic-desc">
-          <h3>Python Essentials</h3>
-          <div class="score-info" id="GIT">
-            <!-- container for score -->
+        <li class="quiz-button" data-topic="Git & GitHub">
+          <div class="header-design"></div>
+          <div class="topic-desc">
+            <h3>Python Essentials</h3>
+            <div class="score-info" id="GIT">
+              <!-- container for score -->
+            </div>
+            <p>Welcome to the Python Essentials Quiz!</p>
+            <div class="link-button">TAKE THE QUIZ <span>></span></div>
           </div>
-          <p>
-            Welcome to the Python Essentials Quiz!
-          </p>
-          <div class="link-button">
-            TAKE THE QUIZ <span>></span>
-          </div>
-        </div>
-      </li>
+        </li>
 
-      <li class="quiz-button" data-topic="HTML">
-        <div class="header-design"></div>
-        <div class="topic-desc">
-          <h3>SQL</h3>
-          <div class="score-info" id="HTML">
-            <!-- container for score -->
+        <li class="quiz-button" data-topic="HTML">
+          <div class="header-design"></div>
+          <div class="topic-desc">
+            <h3>SQL</h3>
+            <div class="score-info" id="HTML">
+              <!-- container for score -->
+            </div>
+            <p>Welcome to the SQL Quiz!</p>
+            <div class="link-button">TAKE THE QUIZ <span>></span></div>
           </div>
-          <p>
-            Welcome to the SQL Quiz!
-          </p>
-          <div class="link-button">TAKE THE QUIZ <span>></span></div>
-        </div>
-      </li>
+        </li>
 
-      <li class="quiz-button" data-topic="CSS Basics">
-        <div class="header-design"></div>
-        <div class="topic-desc">
-          <h3>Pandas Basics</h3>
-          <div class="score-info" id="CSS1">
-            <!-- container for score -->
+        <li class="quiz-button" data-topic="CSS Basics">
+          <div class="header-design"></div>
+          <div class="topic-desc">
+            <h3>Pandas Basics</h3>
+            <div class="score-info" id="CSS1">
+              <!-- container for score -->
+            </div>
+            <p>Welcome to the Pandas Basics Quiz!</p>
+            <div class="link-button">TAKE THE QUIZ <span>></span></div>
           </div>
-          <p>
-            Welcome to the Pandas Basics Quiz!
-          </p>
-          <div class="link-button">
-            TAKE THE QUIZ <span>></span>
-          </div>
-        </div>
-      </li>
+        </li>
 
-      <li class="quiz-button" data-topic="Intermediate CSS">
-        <div class="header-design"></div>
-        <div class="topic-desc">
-          <h3>Pandas Intermediate</h3>
-          <div class="score-info" id="CSS2">
-            <!-- container for score -->
+        <li class="quiz-button" data-topic="Intermediate CSS">
+          <div class="header-design"></div>
+          <div class="topic-desc">
+            <h3>Pandas Intermediate</h3>
+            <div class="score-info" id="CSS2">
+              <!-- container for score -->
+            </div>
+            <p>Welcome to the Pandas Intermediate Quiz!</p>
+            <div class="link-button">TAKE THE QUIZ <span>></span></div>
           </div>
-          <p>
-            Welcome to the Pandas Intermediate Quiz!
-          </p>
-          <div class="link-button">
-            TAKE THE QUIZ <span>></span>
+        </li>
+
+        <li class="quiz-button" data-topic="JavaScript Basics">
+          <div class="header-design"></div>
+          <div class="topic-desc">
+            <h3>Data Visualization</h3>
+            <div class="score-info" id="JS">
+              <!-- container for score -->
+            </div>
+            <p>Welcome to the Data Visualization Quiz!</p>
+            <div class="link-button">TAKE THE QUIZ <span>></span></div>
           </div>
-        </div>
-      </li>
+        </li>
+      </ol>
+    </div>
+    <div class="footer">
+      2024 OneCodeCamp
+      <a style="display: inline" href="mailto:onecodecampbootcamp@gmail.com"
+        >Send Feedback</a
+      >
+    </div>
 
-      <li class="quiz-button" data-topic="JavaScript Basics">
-        <div class="header-design"></div>
-        <div class="topic-desc">
-          <h3>Data Visualization</h3>
-          <div class="score-info" id="JS">
-            <!-- container for score -->
-          </div>
-          <p>
-            Welcome to the Data Visualization Quiz!
-          </p>
-          <div class="link-button">
-            TAKE THE QUIZ <span>></span>
-          </div>
-        </div>
-      </li>
-    </ol>
-  </div>
-  <div class="footer">
-    2024 OneCodeCamp
-    <a style="display: inline" href="mailto:onecodecampbootcamp@gmail.com">Send Feedback</a>
-  </div>
-
-  <script src="./app.js">
-
-  </script>
-</body>
-
+    <script src="./app.js"></script>
+  </body>
 </html>
