@@ -67,7 +67,7 @@ function retrieveScore() {
 
 retrieveScore();
 
-// Prevent Inspect Element
+/* === Prevent Copy Paste === */
 // document.addEventListener("contextmenu", function (e) {
 //   e.preventDefault();
 // });
